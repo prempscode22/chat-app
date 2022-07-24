@@ -284,6 +284,9 @@ h1 {
 /* RESPONSIVE */
 
 @media screen and (max-width: 26em) {
+  body {
+    overflow-x: hidden;
+  }
   main {
     padding: 0 1rem;
     max-width: 37.5rem;
