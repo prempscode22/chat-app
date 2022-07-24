@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <!-- Samuel Green Available to Walk That sounds great. I’d be happy with that.
+    Could you send over some pictures of your dog, please? Here are a few
+    pictures. She’s a happy girl! Can you make it? She looks so happy! The time
+    we discussed works. How long shall I take her out for? 30 minute walk $29 1
+    hour walk $49 Type a message… Simple booking Stay in touch with our dog
+    walkers through the chat interface. This makes it easy to discuss
+    arrangements and make bookings. Once the walk has been completed you can
+    rate your walker and book again all through the chat. -->
+
+    <main>
+      <div class="container">
+        <div class="left">
+          <div class="bg">
+            <div class="phone">
+              <div class="phone-bg">
+                <header class="phone-chat">
+                  <div class="phone-notch"></div>
+                  <div class="header-info">
+                    <ion-icon
+                      class="arrow-left"
+                      name="chevron-back-outline"
+                    ></ion-icon>
+                    <img src="/images/avatar.jpg" alt="avatar" />
+                    <div class="header-details">
+                      <p>Samuel Green</p>
+                      <p>Available to Walk</p>
+                    </div>
+                    <ion-icon
+                      class="menu-icon"
+                      name="ellipsis-vertical-outline"
+                    ></ion-icon>
+                  </div>
+                </header>
+                <div class="chat-text-box">
+                  <div class="chat-text-left">
+                    <p class="chat-text margin">
+                      That sounds great. I’d be happy with that.
+                    </p>
+                    <p class="chat-text">
+                      Could you send over some pictures of your dog, please?
+                    </p>
+                  </div>
+                  <div class="chat-text-right">
+                    <div class="img-box">
+                      <img src="/images/dog-image-1.jpg" alt="dog" />
+                      <img src="/images/dog-image-2.jpg" alt="dog" />
+                      <img src="/images/dog-image-3.jpg" alt="dog" />
+                    </div>
+                    <p class="chat-right-text">
+                      Here are a few pictures. She’s a happy girl!
+                    </p>
+                    <p class="chat-right-text">Can you make it?</p>
+                  </div>
+
+                  <div class="chat-text-left">
+                    <p class="chat-text margin fit">
+                      She looks so happy! The time we discussed works. How long
+                      shall I take her out for?
+                    </p>
+                    <div class="chat-text-contents">
+                      <div class="radio"></div>
+                      <p>30 minute walk</p>
+                      <span>$29</span>
+                    </div>
+                    <div class="chat-text-contents">
+                      <div class="radio"></div>
+                      <p>1 hour walk</p>
+                      <span>$49</span>
+                    </div>
+                  </div>
+
+                  <!-- input text -->
+                  <div class="chat-input">
+                    <input type="text" placeholder="Type a message" />
+                    <ion-icon
+                      class="arrow-right"
+                      name="chevron-forward-outline"
+                    ></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <h1>Simple booking</h1>
+          <p>
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+          <div class="bg shape"></div>
+        </div>
+      </div>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
