@@ -285,11 +285,10 @@ h1 {
 
 @media screen and (max-width: 26em) {
   body {
-    overflow-x: hidden;
+    overflow-y: scroll;
   }
   main {
     padding: 0 1rem;
-    max-width: 37.5rem;
   }
   .container {
     grid-template-columns: 1fr;
